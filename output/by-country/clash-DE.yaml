@@ -6,127 +6,19 @@ log-level: info
 proxies:
 - name: 🇩🇪 德国 (Germany) 01 - xiaohe
   type: vless
-  server: 91.107.243.131
+  server: 91.107.244.35
   port: 465
-  uuid: 98aa35fc-7d2f-4744-a91b-7e33b4fdd9c8
+  uuid: a356fa77-7199-417a-80dd-0c0925789161
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: hw14.roghanmo.com
+  servername: hw5.roghanmo.com
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: hw14.roghanmo.com
+      Host: 91.107.244.35
 - name: 🇩🇪 德国 (Germany) 02 - xiaohe
-  type: ss
-  server: 185.176.204.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇩🇪 德国 (Germany) 03 - xiaohe
-  type: ss
-  server: 185.176.204.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇩🇪 德国 (Germany) 04 - xiaohe
-  type: vless
-  server: 91.107.244.35
-  port: 465
-  uuid: a356fa77-7199-417a-80dd-0c0925789161
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hw5.roghanmo.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 91.107.244.35
-- name: 🇩🇪 德国 (Germany) 05 - xiaohe
-  type: vmess
-  server: renderer-stream-2-129.mirra.now
-  port: 443
-  uuid: 27653b37-603c-4c90-b1f5-25c4d23f8932
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: renderer-stream-2-129.mirra.now
-  network: ws
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-129.mirra.now
-- name: 🇩🇪 德国 (Germany) 06 - xiaohe
-  type: vless
-  server: 172.64.146.111
-  port: 443
-  uuid: 4d945644-69ab-47e0-98b3-d43a6313135d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV
-  network: ws
-  ws-opts:
-    path: /vl/SaXqikbSPA3ImtmZKAFin?ed=2560
-    headers:
-      Host: mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV
-- name: 🇩🇪 德国 (Germany) 07 - xiaohe
-  type: vless
-  server: 51.75.67.209
-  port: 2096
-  uuid: 20d04f6e-797b-4814-b60a-3882be3b101b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: microsoft.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: microsoft.com
-- name: 🇩🇪 德国 (Germany) 08 - xiaohe
-  type: vless
-  server: 146.75.57.238
-  port: 443
-  uuid: 31edfa90-bc81-4534-9066-322dbf52dcef
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn.akamai.steamstatic.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: azadi-gk-nasim.global.ssl.fastly.net
-- name: 🇩🇪 德国 (Germany) 09 - xiaohe
-  type: vless
-  server: 91.107.244.35
-  port: 465
-  uuid: a356fa77-7199-417a-80dd-0c0925789161
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hw5.roghanmo.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 91.107.244.35
-- name: 🇩🇪 德国 (Germany) 10 - xiaohe
-  type: vless
-  server: 178.104.118.247
-  port: 2087
-  uuid: a34a5f3e-e9fa-40a6-f3af-2984adbd701b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 11 - xiaohe
   type: vless
   server: 104.17.70.206
   port: 8443
@@ -140,21 +32,41 @@ proxies:
     path: /
     headers:
       Host: free.sahanwickramasinghe.com
-- name: 🇩🇪 德国 (Germany) 12 - xiaohe
+- name: 🇩🇪 德国 (Germany) 03 - xiaohe
   type: vless
-  server: 45.88.12.119
-  port: 2083
-  uuid: 8dd437e1-5f3f-446e-98fe-aa29b80057fb
+  server: 91.107.244.35
+  port: 465
+  uuid: a356fa77-7199-417a-80dd-0c0925789161
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: crt.dodopanel.biz
+  servername: hw5.roghanmo.com
   network: ws
   ws-opts:
-    path: /vless-ws
+    path: /
     headers:
-      Host: 45.88.12.119
-- name: 🇩🇪 德国 (Germany) 13 - xiaohe
+      Host: 91.107.244.35
+- name: 🇩🇪 德国 (Germany) 04 - xiaohe
+  type: vless
+  server: iproxyland.beshdash.ir
+  port: 58545
+  uuid: 6324c880-9fe5-49f9-9e19-85c7961310e6
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Hm9C1tP40Uc-a8e2NQBUUM_uCkKVts3Fcedoo8EI8xU
+  servername: lamssettings-pa.googleapis.com
+  client-fingerprint: firefox
+- name: 🇩🇪 德国 (Germany) 05 - xiaohe
+  type: vless
+  server: 178.104.118.247
+  port: 2087
+  uuid: a34a5f3e-e9fa-40a6-f3af-2984adbd701b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 06 - xiaohe
   type: vless
   server: 91.107.244.35
   port: 465
@@ -168,6 +80,96 @@ proxies:
     path: /
     headers:
       Host: hw5.roghanmo.com
+- name: 🇩🇪 德国 (Germany) 07 - xiaohe
+  type: vless
+  server: 91.107.244.35
+  port: 465
+  uuid: a356fa77-7199-417a-80dd-0c0925789161
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: hw5.roghanmo.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hw5.roghanmo.com
+- name: 🇩🇪 德国 (Germany) 08 - xiaohe
+  type: vless
+  server: 51.75.67.209
+  port: 2096
+  uuid: 20d04f6e-797b-4814-b60a-3882be3b101b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: microsoft.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: microsoft.com
+- name: 🇩🇪 德国 (Germany) 09 - xiaohe
+  type: vmess
+  server: 93.93.89.99
+  port: 443
+  uuid: 27653b37-603c-4c90-b1f5-25c4d23f8932
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: renderer-stream-2-129.mirra.now
+  network: ws
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
+    headers:
+      Host: renderer-stream-2-129.mirra.now
+- name: 🇩🇪 德国 (Germany) 10 - xiaohe
+  type: vless
+  server: 57.129.41.216
+  port: 80
+  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: OV-Germany1.09vpn.com
+- name: 🇩🇪 德国 (Germany) 11 - xiaohe
+  type: vless
+  server: 3f8efdt.fi1.h1clayd.click
+  port: 443
+  uuid: 9a0e84f8-4b58-477f-99da-5fac5a2e58e8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 1D_o1pqfVoReg9zLPKNy1wCL7aGWytbmbYPbbJGaozY
+  servername: 3f8efdt.fi1.h1clayd.click
+  client-fingerprint: firefox
+- name: 🇩🇪 德国 (Germany) 12 - xiaohe
+  type: vless
+  server: 104.18.41.145
+  port: 443
+  uuid: 4d945644-69ab-47e0-98b3-d43a6313135d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV
+  network: ws
+  ws-opts:
+    path: /vl/SaXqikbSPA3ImtmZKAFin?ed=2560
+    headers:
+      Host: mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV
+- name: 🇩🇪 德国 (Germany) 13 - xiaohe
+  type: ss
+  server: 185.226.172.8
+  port: 8008
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+  udp: true
 - name: 🇩🇪 德国 (Germany) 14 - xiaohe
   type: vless
   server: 91.107.243.131
@@ -183,50 +185,40 @@ proxies:
     headers:
       Host: hw14.roghanmo.com
 - name: 🇩🇪 德国 (Germany) 15 - xiaohe
-  type: ss
-  server: 185.226.172.8
-  port: 8008
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-  udp: true
-- name: 🇩🇪 德国 (Germany) 16 - xiaohe
   type: vless
-  server: 3f8efdt.fi1.h1clayd.click
-  port: 443
-  uuid: 9a0e84f8-4b58-477f-99da-5fac5a2e58e8
+  server: 91.107.243.131
+  port: 465
+  uuid: 98aa35fc-7d2f-4744-a91b-7e33b4fdd9c8
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: 1D_o1pqfVoReg9zLPKNy1wCL7aGWytbmbYPbbJGaozY
-  servername: 3f8efdt.fi1.h1clayd.click
-  client-fingerprint: firefox
-- name: 🇩🇪 德国 (Germany) 17 - xiaohe
-  type: vless
-  server: iproxyland.beshdash.ir
-  port: 58545
-  uuid: 6324c880-9fe5-49f9-9e19-85c7961310e6
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: Hm9C1tP40Uc-a8e2NQBUUM_uCkKVts3Fcedoo8EI8xU
-  servername: lamssettings-pa.googleapis.com
-  client-fingerprint: firefox
-- name: 🇩🇪 德国 (Germany) 18 - xiaohe
-  type: vless
-  server: 104.18.41.145
-  port: 443
-  uuid: 4d945644-69ab-47e0-98b3-d43a6313135d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV
+  servername: hw14.roghanmo.com
   network: ws
   ws-opts:
-    path: /vl/SaXqikbSPA3ImtmZKAFin?ed=2560
+    path: /
     headers:
-      Host: mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV
+      Host: hw14.roghanmo.com
+- name: 🇩🇪 德国 (Germany) 16 - xiaohe
+  type: ss
+  server: 185.176.204.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇩🇪 德国 (Germany) 17 - xiaohe
+  type: vless
+  server: 146.75.57.238
+  port: 443
+  uuid: 31edfa90-bc81-4534-9066-322dbf52dcef
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn.akamai.steamstatic.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: azadi-gk-nasim.global.ssl.fastly.net
 proxy-groups:
 - name: PROXIES
   type: select
@@ -249,7 +241,6 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 15 - xiaohe
   - 🇩🇪 德国 (Germany) 16 - xiaohe
   - 🇩🇪 德国 (Germany) 17 - xiaohe
-  - 🇩🇪 德国 (Germany) 18 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -272,6 +263,5 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 15 - xiaohe
   - 🇩🇪 德国 (Germany) 16 - xiaohe
   - 🇩🇪 德国 (Germany) 17 - xiaohe
-  - 🇩🇪 德国 (Germany) 18 - xiaohe
 rules:
 - MATCH,PROXIES
