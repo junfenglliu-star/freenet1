@@ -6,33 +6,19 @@ log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
   type: vless
-  server: epam.com
+  server: 104.16.111.102
   port: 443
-  uuid: cced2d3b-9840-4579-a6b3-5de365f3bf50
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: wallweb6.pages.dev
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /
+    path: /tyxyws
     headers:
-      Host: wallweb6.pages.dev
+      Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 02 - xiaohe
-  type: vless
-  server: 188.114.97.9
-  port: 443
-  uuid: 27135ee3-0829-4dbc-ae3e-b70e86e5d510
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 63yw55ibrgt8rswbfnmhapuzux4p29favnxxslbjbnmqjzz7efh95h3nfdsfdsf.d2ha6.workers.Dev
-  network: ws
-  ws-opts:
-    path: Telegram+channel+:+@pandavpntc
-    headers:
-      Host: 63yw55ibrgt8rswbfnmhapuzux4p29favnxxslbjbnmqjzz7efh95h3nfdsfdsf.d2ha6.workers.Dev
-- name: 🌐 其他地区 (Other) 03 - xiaohe
   type: vless
   server: 104.16.10.56
   port: 443
@@ -46,23 +32,37 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 04 - xiaohe
+- name: 🌐 其他地区 (Other) 03 - xiaohe
   type: vless
-  server: 172.64.146.66
+  server: 104.18.27.217
   port: 443
-  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
+  uuid: cced2d3b-9840-4579-a6b3-5de365f3bf50
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ex3r.qzz.io
+  servername: wallweb6.pages.dev
   network: ws
   ws-opts:
-    path: /sg-orcl
+    path: /
     headers:
-      Host: ex3r.qzz.io
+      Host: wallweb6.pages.dev
+- name: 🌐 其他地区 (Other) 04 - xiaohe
+  type: vless
+  server: 104.27.46.35
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 05 - xiaohe
   type: vless
-  server: 104.19.164.155
+  server: 104.16.10.72
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -76,7 +76,7 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 06 - xiaohe
   type: vless
-  server: 104.17.50.227
+  server: 104.21.0.87
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -90,205 +90,63 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 07 - xiaohe
   type: vless
-  server: 104.18.41.190
+  server: 104.27.124.133
   port: 443
-  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
+  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ex3r.qzz.io
+  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
   network: ws
   ws-opts:
-    path: /sg-orcl
+    path: /api/ws
     headers:
-      Host: ex3r.qzz.io
+      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
 - name: 🌐 其他地区 (Other) 08 - xiaohe
   type: vless
-  server: 172.64.156.230
+  server: 104.24.31.89
   port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /
+    path: /tyxyws
     headers:
-      Host: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
+      Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 09 - xiaohe
   type: vless
-  server: 172.64.147.85
+  server: 172.64.190.13
   port: 443
-  uuid: cced2d3b-9840-4579-a6b3-5de365f3bf50
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: wallweb6.pages.dev
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /
+    path: /tyxyws
     headers:
-      Host: wallweb6.pages.dev
+      Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 10 - xiaohe
-  type: vless
-  server: 104.18.42.98
+  type: vmess
+  server: 104.21.7.133
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: vmess.lbw666.dpdns.org
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /ws
     headers:
-      Host: jp3.yohototo.top
+      Host: vmess.lbw666.dpdns.org
 - name: 🌐 其他地区 (Other) 11 - xiaohe
-  type: vmess
-  server: 188.114.96.3
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: v2ray1.dozapp.xyz
-  network: ws
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
-- name: 🌐 其他地区 (Other) 12 - xiaohe
-  type: vmess
-  server: 104.21.91.53
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: v2ray1.dozapp.xyz
-  network: ws
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
-- name: 🌐 其他地区 (Other) 13 - xiaohe
-  type: vless
-  server: 188.114.96.3
-  port: 443
-  uuid: 5b716e51-489e-4e97-b5c8-dd10803eff93
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: snc9ne2f7zclhn5uzth7hcfgsrnympmmrnej7w2uzdjtsyt2fssssssssssssss.n0xp4ed8mc.workers.Dev
-  network: ws
-  ws-opts:
-    path: 'Telegram channel : @pandavpntc'
-    headers:
-      Host: snc9ne2f7zclhn5uzth7hcfgsrnympmmrnej7w2uzdjtsyt2fssssssssssssss.n0xp4ed8mc.workers.Dev
-- name: 🌐 其他地区 (Other) 14 - xiaohe
-  type: vless
-  server: 188.114.97.9
-  port: 443
-  uuid: 27135ee3-0829-4dbc-ae3e-b70e86e5d510
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 63yw55ibrgt8rswbfnmhapuzux4p29favnxxslbjbnmqjzz7efh95h3nfdsfdsf.d2ha6.workers.Dev
-  network: ws
-  ws-opts:
-    path: Telegram+channel+:+@pandavpntc
-    headers:
-      Host: 63yw55ibrgt8rswbfnmhapuzux4p29favnxxslbjbnmqjzz7efh95h3nfdsfdsf.d2ha6.workers.Dev
-- name: 🌐 其他地区 (Other) 15 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 16 - xiaohe
-  type: vless
-  server: 104.21.219.160
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 17 - xiaohe
-  type: vless
-  server: 104.17.50.53
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 18 - xiaohe
-  type: vless
-  server: 104.21.0.87
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 19 - xiaohe
-  type: vless
-  server: 172.66.44.78
-  port: 443
-  uuid: 0d5a2112-789f-4755-88e6-61a1a8f8067b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 14F7F5f0.mRBL69BlaCK.paGES.DeV
-  network: ws
-  ws-opts:
-    path: /I0IHonn0TGa2xaOO?ed=2560
-    headers:
-      Host: 14f7f5F0.MRBL69bLaCk.PagEs.dev
-- name: 🌐 其他地区 (Other) 20 - xiaohe
-  type: vless
-  server: spacex.com
-  port: 443
-  uuid: cced2d3b-9840-4579-a6b3-5de365f3bf50
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wallweb6.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: wallweb6.pages.dev
-- name: 🌐 其他地区 (Other) 21 - xiaohe
   type: vless
   server: 172.67.160.192
   port: 443
@@ -302,9 +160,9 @@ proxies:
     path: /free/1.226.227.169:50001
     headers:
       Host: nuclear.us.kg
-- name: 🌐 其他地区 (Other) 22 - xiaohe
+- name: 🌐 其他地区 (Other) 12 - xiaohe
   type: vless
-  server: 172.67.217.240
+  server: 104.21.219.160
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -316,37 +174,51 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 23 - xiaohe
+- name: 🌐 其他地区 (Other) 13 - xiaohe
   type: vless
-  server: 188.114.97.3
+  server: 104.21.73.135
   port: 443
-  uuid: 27135ee3-0829-4dbc-ae3e-b70e86e5d510
+  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 63yw55ibrgt8rswbfnmhapuzux4p29favnxxslbjbnmqjzz7efh95h3nfdsfdsf.d2ha6.workers.Dev
+  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
   network: ws
   ws-opts:
-    path: Telegram+channel+:+@pandavpntc
+    path: /api/ws
     headers:
-      Host: 63yw55ibrgt8rswbfnmhapuzux4p29favnxxslbjbnmqjzz7efh95h3nfdsfdsf.d2ha6.workers.Dev
-- name: 🌐 其他地区 (Other) 24 - xiaohe
+      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
+- name: 🌐 其他地区 (Other) 14 - xiaohe
   type: vless
-  server: 188.114.97.3
+  server: 172.67.145.14
   port: 443
-  uuid: 27135ee3-0829-4dbc-ae3e-b70e86e5d510
+  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 63yw55ibrgt8rswbfnmhapuzux4p29favnxxslbjbnmqjzz7efh95h3nfdsfdsf.d2ha6.workers.Dev
+  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
   network: ws
   ws-opts:
-    path: Telegram+channel+:+@pandavpntc
+    path: /api/ws
     headers:
-      Host: 63yw55ibrgt8rswbfnmhapuzux4p29favnxxslbjbnmqjzz7efh95h3nfdsfdsf.d2ha6.workers.Dev
-- name: 🌐 其他地区 (Other) 25 - xiaohe
+      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
+- name: 🌐 其他地区 (Other) 15 - xiaohe
   type: vless
-  server: 172.64.149.65
+  server: 104.21.14.232
+  port: 443
+  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/1.226.227.169:50001
+    headers:
+      Host: nuclear.us.kg
+- name: 🌐 其他地区 (Other) 16 - xiaohe
+  type: vless
+  server: 172.64.147.154
   port: 443
   uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
   udp: true
@@ -358,7 +230,105 @@ proxies:
     path: /
     headers:
       Host: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
-- name: 🌐 其他地区 (Other) 26 - xiaohe
+- name: 🌐 其他地区 (Other) 17 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 2087
+  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: levikoconfig.levikogjgfdd.ir
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: levikoconfig.levikogjgfdd.ir
+- name: 🌐 其他地区 (Other) 18 - xiaohe
+  type: vless
+  server: 104.27.110.37
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
+  network: ws
+  ws-opts:
+    path: /api/ws
+    headers:
+      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
+- name: 🌐 其他地区 (Other) 19 - xiaohe
+  type: vless
+  server: 104.21.73.135
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
+  network: ws
+  ws-opts:
+    path: /api/wsfp=ios
+    headers:
+      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
+- name: 🌐 其他地区 (Other) 20 - xiaohe
+  type: vless
+  server: 172.64.147.154
+  port: 443
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
+- name: 🌐 其他地区 (Other) 21 - xiaohe
+  type: vless
+  server: 172.66.47.178
+  port: 443
+  uuid: 0d5a2112-789f-4755-88e6-61a1a8f8067b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 14F7F5f0.mRBL69BlaCK.paGES.DeV
+  network: ws
+  ws-opts:
+    path: /I0IHonn0TGa2xaOO?ed=2560
+    headers:
+      Host: 14f7f5F0.MRBL69bLaCk.PagEs.dev
+- name: 🌐 其他地区 (Other) 22 - xiaohe
+  type: vless
+  server: 172.64.147.154
+  port: 443
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
+- name: 🌐 其他地区 (Other) 23 - xiaohe
+  type: vless
+  server: 172.66.44.78
+  port: 443
+  uuid: 0d5a2112-789f-4755-88e6-61a1a8f8067b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 14F7F5f0.mRBL69BlaCK.paGES.DeV
+  network: ws
+  ws-opts:
+    path: /I0IHonn0TGa2xaOO?ed=2560
+    headers:
+      Host: 14f7f5F0.MRBL69bLaCk.PagEs.dev
+- name: 🌐 其他地区 (Other) 24 - xiaohe
   type: vless
   server: 172.67.160.192
   port: 443
@@ -372,6 +342,33 @@ proxies:
     path: /free/103.101.153.32:443
     headers:
       Host: nuclear.us.kg
+- name: 🌐 其他地区 (Other) 25 - xiaohe
+  type: vless
+  server: 104.21.6.186
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 26 - xiaohe
+  type: vless
+  server: 104.18.109.147
+  port: 80
+  uuid: c29d39bd-92a4-45db-bb61-56013998617c
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /Telegram-XV2ry2?ed=2048
+    headers:
+      Host: www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com
 - name: 🌐 其他地区 (Other) 27 - xiaohe
   type: vless
   server: 188.114.97.9
@@ -388,6 +385,34 @@ proxies:
       Host: 63yw55ibrgt8rswbfnmhapuzux4p29favnxxslbjbnmqjzz7efh95h3nfdsfdsf.d2ha6.workers.Dev
 - name: 🌐 其他地区 (Other) 28 - xiaohe
   type: vless
+  server: 104.17.147.22
+  port: 443
+  uuid: bf20cf5a-30c1-4022-9bcb-ba798ad51531
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wallweb7.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: wallweb7.pages.dev
+- name: 🌐 其他地区 (Other) 29 - xiaohe
+  type: vless
+  server: 172.64.150.248
+  port: 443
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: powered-by-surena.configfarsi695fd01a94fe7.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: powered-by-surena.configfarsi695fd01a94fe7.workers.dev
+- name: 🌐 其他地区 (Other) 30 - xiaohe
+  type: vless
   server: 104.19.164.155
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
@@ -400,9 +425,23 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 29 - xiaohe
+- name: 🌐 其他地区 (Other) 31 - xiaohe
   type: vless
-  server: 104.16.10.104
+  server: 172.64.149.65
+  port: 443
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
+- name: 🌐 其他地区 (Other) 32 - xiaohe
+  type: vless
+  server: 104.21.33.59
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -414,93 +453,51 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 30 - xiaohe
-  type: vless
-  server: 188.114.97.3
-  port: 443
-  uuid: 72f10005-8849-4072-b081-db3258c1350f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xa6jgykbpcfy6na3tt4zeefsquy2x5kank9hmzdqieofbqkbv3kukzmdfsssaaa.b5mq1ob64b.workers.Dev
-  network: ws
-  ws-opts:
-    path: telegram+channel+:+@pandavpntc
-    headers:
-      Host: xa6jgykbpcfy6na3tt4zeefsquy2x5kank9hmzdqieofbqkbv3kukzmdfsssaaa.b5mq1ob64b.workers.Dev
-- name: 🌐 其他地区 (Other) 31 - xiaohe
-  type: vless
-  server: 14f7f5f0.mrbl69black.pages.dev
-  port: 443
-  uuid: 0d5a2112-789f-4755-88e6-61a1a8f8067b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 14F7F5f0.mRBL69BlaCK.paGES.DeV
-  network: ws
-  ws-opts:
-    path: /I0IHonn0TGa2xaOO?ed=2560
-    headers:
-      Host: 14f7f5F0.MRBL69bLaCk.PagEs.dev
-- name: 🌐 其他地区 (Other) 32 - xiaohe
-  type: vless
-  server: 104.21.14.232
-  port: 443
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nuclear.us.kg
-  network: ws
-  ws-opts:
-    path: /free/1.226.227.169:50001
-    headers:
-      Host: nuclear.us.kg
 - name: 🌐 其他地区 (Other) 33 - xiaohe
   type: vless
-  server: www.speedtest.net
+  server: 104.18.42.98
   port: 443
-  uuid: ec23f217-23a1-4f62-b98d-ba56070de89c
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: wallweb4.pages.dev
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /tyxyws
     headers:
-      Host: wallweb4.pages.dev
+      Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 34 - xiaohe
   type: vless
-  server: 172.66.47.178
-  port: 443
-  uuid: 0d5a2112-789f-4755-88e6-61a1a8f8067b
+  server: 188.114.97.6
+  port: 2096
+  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 14F7F5f0.mRBL69BlaCK.paGES.DeV
+  servername: levikoconfig.levikogjgfdd.ir
   network: ws
   ws-opts:
-    path: /I0IHonn0TGa2xaOO?ed=2560
+    path: /
     headers:
-      Host: 14f7f5F0.MRBL69bLaCk.PagEs.dev
+      Host: levikoconfig.levikogjgfdd.ir
 - name: 🌐 其他地区 (Other) 35 - xiaohe
   type: vless
-  server: 188.114.96.3
+  server: 104.16.10.234
   port: 443
-  uuid: 5b716e51-489e-4e97-b5c8-dd10803eff93
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: snc9ne2f7zclhn5uzth7hcfgsrnympmmrnej7w2uzdjtsyt2fssssssssssssss.n0xp4ed8mc.workers.Dev
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: Telegram+channel+:+@pandavpntc
+    path: /tyxyws
     headers:
-      Host: snc9ne2f7zclhn5uzth7hcfgsrnympmmrnej7w2uzdjtsyt2fssssssssssssss.n0xp4ed8mc.workers.Dev
+      Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 36 - xiaohe
   type: vless
-  server: 104.16.10.2
+  server: 188.114.97.6
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -514,63 +511,7 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 37 - xiaohe
   type: vless
-  server: 172.64.190.13
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 38 - xiaohe
-  type: vless
-  server: 104.21.34.106
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 39 - xiaohe
-  type: vless
-  server: 172.64.147.154
-  port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
-- name: 🌐 其他地区 (Other) 40 - xiaohe
-  type: vless
-  server: 188.114.97.3
-  port: 443
-  uuid: 27135ee3-0829-4dbc-ae3e-b70e86e5d510
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 63yw55ibrgt8rswbfnmhapuzux4p29favnxxslbjbnmqjzz7efh95h3nfdsfdsf.d2ha6.workers.Dev
-  network: ws
-  ws-opts:
-    path: Telegram+channel+:+@pandavpntc
-    headers:
-      Host: 63yw55ibrgt8rswbfnmhapuzux4p29favnxxslbjbnmqjzz7efh95h3nfdsfdsf.d2ha6.workers.Dev
-- name: 🌐 其他地区 (Other) 41 - xiaohe
-  type: vless
-  server: 104.21.0.87
+  server: 188.114.98.0
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -624,10 +565,6 @@ proxy-groups:
   - 🌐 其他地区 (Other) 35 - xiaohe
   - 🌐 其他地区 (Other) 36 - xiaohe
   - 🌐 其他地区 (Other) 37 - xiaohe
-  - 🌐 其他地区 (Other) 38 - xiaohe
-  - 🌐 其他地区 (Other) 39 - xiaohe
-  - 🌐 其他地区 (Other) 40 - xiaohe
-  - 🌐 其他地区 (Other) 41 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -670,9 +607,5 @@ proxy-groups:
   - 🌐 其他地区 (Other) 35 - xiaohe
   - 🌐 其他地区 (Other) 36 - xiaohe
   - 🌐 其他地区 (Other) 37 - xiaohe
-  - 🌐 其他地区 (Other) 38 - xiaohe
-  - 🌐 其他地区 (Other) 39 - xiaohe
-  - 🌐 其他地区 (Other) 40 - xiaohe
-  - 🌐 其他地区 (Other) 41 - xiaohe
 rules:
 - MATCH,PROXIES
